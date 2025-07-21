@@ -11,12 +11,19 @@ Simple Express.js backend for the [QTech Frontend](https://shopeasy-neon.vercel.
 ## Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/asheque33/qtech-technical-test-express.git
+cd qtech-technical-test-express
+
 # Install dependencies
 pnpm install
 
 # Create .env file
 MONGODB_URI=your_mongodb_connection_string
 PORT=4000
+
+# Start development server
+pnpm dev
 
 # Start server
 pnpm start
@@ -47,16 +54,6 @@ GET /
   "message": "Products retrieved successfully",
   "data": [...products]
 }
-```
-
-
-## Development
-
-```bash
-# Start development server
-pnpm dev
-
-# Server runs on http://localhost:4000
 ```
 
 ## Frontend Repository
